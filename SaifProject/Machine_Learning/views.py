@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def ml(request):
-    return HttpResponse('<h1>This is machine learning</h1>')
+    return render(request, 'machine_learning.html')
 
 def dl(request):
     return HttpResponse('This is deep learning')
