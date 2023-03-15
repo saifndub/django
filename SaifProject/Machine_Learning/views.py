@@ -3,7 +3,11 @@ from django.http import HttpResponse
 
 # Create your views here.
 def mlearning(request):
-    offering = {'what' : 'which is interesting subject.'}
+    course = 'machine learning'
+    TClass = 21
+    seat = 20
+    duration = '2.5 months'
+    offering = {'c' : course, 'tc' : TClass, 'st' : seat, 'cd' : duration}
     return render(request, 'machine_learning/machine_learning.html', context=offering)
 
 def random(request):
