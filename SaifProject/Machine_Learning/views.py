@@ -8,7 +8,8 @@ def mlearning(request):
     seat = 20
     duration = '2.5 months'
     offering = {'c' : course, 'tc' : TClass, 'st' : seat, 'cd' : duration}
-    return render(request, 'machine_learning/machine_learning.html', context=offering)
+    Teachers = {'names' : ['Shakil', 'Mejba', 'Sohanur']}
+    return render(request, 'machine_learning/machine_learning.html', context=Teachers)
 
 def random(request):
     return render(request, 'machine_learning/random_forest.html')
