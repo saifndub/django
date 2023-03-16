@@ -7,6 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>This is {{c}} course. There have more than {{tc}} Classes, available {{st}} seats. Finally course duration {{cd}}</h1>
+    <h1>This is {{c}} course. There have more than {{tc}} Classes, available {{st}} seats.
+         Finally course duration {{cd}}</h1>
+    <h2>{{c|length}}</h2>        <!-- upper, lower, length-->
+
+    <!--if elif else Statement-->
+    {% if st == 40 %}
+    <h2>{{c|upper}} Saif</h2>
+    {% elif st == 20 %}
+    <h2>This elif part</h2>
+    {% else %}
+    <h2>This is else part. Saif Hossain</h2>
+    {% endif %}
+
+    <!--for loop Statement-->
+    {% for tn in names reversed %}
+    {{ forloop.counter }}
+    {{tn}} <br>
+    {% endfor %}
+
 </body>
 </html>
+
