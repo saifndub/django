@@ -23,5 +23,5 @@ urlpatterns = [
     path('blog/', include('Blogs.urls')),
     path('about/',include('About_Us.urls')),
     path('deepl/',include('Deep_Learning.urls')),
-    
+    path('data/',include('Data_Analysis.urls')),
 ]
