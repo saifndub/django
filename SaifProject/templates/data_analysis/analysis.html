@@ -1,15 +1,23 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/analysis.css' %}" />
     <title>Document</title>
 </head>
+<style>
+    h6{
+        color: black;
+    }
+</style>
+
 <body>
-    <p>This is data analysis plarform. This is data analysis plarform.</p>
-    <p>This is data analysis plarform.</p>
-    <p>This is data analysis plarform.</p>
+    <p>This is <span style="color: blue;"> data analysis plarform.</span> This is data analysis plarform.</p>
+    <p class="d">This is data analysis plarform.</p>
+    <p class="i">This is data analysis plarform.</p>
 
     <b>data analysis</b> <br>
     <small>data analysis</small> <br>
@@ -18,11 +26,19 @@
     <del>300</del> <br>
     <ins>250</ins> <br>
 
-    <div>
+    
+    <div class="font">
         <p>(a+b)<sup>2</sup></p>
         <p>(a+b)<sub>2</sub></p>
+        <h6>This is h6</h6>
         <p> <abbr title="Data Analysis"> DT </abbr></p>
     </div>
+
+    <pre id="hello">
+        hello
+                                                Django                  
+                        ML
+    </pre>
 
 </body>
 </html>

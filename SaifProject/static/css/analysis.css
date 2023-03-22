@@ -1,0 +1,16 @@
+p{          /* CSS for single tag*/
+    font-size: 20px;
+}
+*{          /* CSS for all tag*/
+    color: red;
+    font-weight: 100;
+}
+.font{      /* CSS using class*/
+    font-size: 40px;
+}
+#hello{     /* CSS using id for unique style*/
+    background-color: blue;
+}
+.d, .i{     /* Group CSS using class*/
+    background-color: chartreuse;
+}
