@@ -1,7 +1,37 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(145, 235, 200);
 }
 h2{
     color: blue;
     background-color: aqua;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 50px 50px 30px 20px;
+
+}
+.margin{
+    height: 500px;
+    width: 500px;
+    border: 5px solid blue;
+}
+.padding{
+    height: 300px;
+    width: 300px;
+    border: 5px solid pink;
+    margin: 50px 40px 30px 20px;
+    padding: 50px 60px 20px 50px;
+}
+.border{
+    height: 200px;
+    width: 200px;
+    border: 100px solid red;
+    border-top-color: green;
+    border-right-color: violet;
+    border-left-color: blue;
+    border-bottom-color: red;
+
+    border-radius: 50px 20px;
 }

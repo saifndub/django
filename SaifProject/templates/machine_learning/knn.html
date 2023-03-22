@@ -1,32 +1,34 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/knn.css' %}" />
     <title>knn</title>
 </head>
 <body>
     <table border="1" align="center" width="400">
-        <tr>
+        <tr class="thead">
             <th>Teacher's Name</th>
             <th>Course</th>
             <th>Class</th>
             <th>Duration</th>
         </tr>
-        <tr align="center">
+        <tr align="center" class="shakil">
             <td>Shakil</td>
             <td>ML</td>
             <td>21</td>
             <td>2.5</td>
         </tr>
-        <tr align="center">
+        <tr align="center" class="mejbah">
             <td>Mejbah</td>
             <td>DL</td>
             <td>20</td>
             <td>2.5</td>
         </tr>
-        <tr align="center">
+        <tr align="center" class="sohanur">
             <td>Sohanur</td>
             <td>DA</td>
             <td>25</td>

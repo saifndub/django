@@ -1,7 +1,19 @@
 body{
-    background-color: blue;
+    background-color: pink;
 }
 h1{
     font-size: 40px;
-    color: rgb(8, 255, 28);
+    color: blue;
+}
+p{
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 2;
+    text-align: justify;
+    text-decoration: underline overline;
+    text-decoration-color: blue;
+
+    text-indent: 50px;
+    text-shadow: 3px 5px 4px rgba(216, 18, 18, 0.5);
+    text-transform: uppercase;
 }
